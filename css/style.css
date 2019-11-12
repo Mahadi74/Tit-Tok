@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+* {
+  box-sizing: border-box;
+}
+
+#app {
+  display: flex;
+  overflow: hidden;
+  position: relative;  
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(green, orange);
+}
+.cell{
+  background-image: linear-gradient(red, orange);
+  
+  width: 150px;
+  height: 150px;
+  margin: 3px;
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  line-height: 150px;
+}
+#main{
+  min-height: 100%;
+  min-height: 100vh;
+ 
+  display: flex;
+  align-items: center;
+}
+
+
+
